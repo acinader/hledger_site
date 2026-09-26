@@ -82,7 +82,7 @@ In September 2026 hledger's main branch (not yet released) became the fastest hl
 on a 100,000-transaction journal, about 3x faster than hledger 1.52 and 4x faster than the 1.99.4 preview.
 For measurements across releases, how to benchmark hledger yourself, and some measurements of
 Ledger, Beancount and rustledger on the same journals, see [PERFORMANCE](PERFORMANCE.md)
-(especially [Compared with other apps](PERFORMANCE.md#compared-with-other-apps)).
+(especially [Other apps](PERFORMANCE.md#other-apps)).
 More benchmarking is welcome.
 
 ### Command line differences
