@@ -23,7 +23,7 @@ If you do close the year, hledger's [close command](hledger.md#close) generates 
    and the opening transaction to the start of the new `2026.journal`.
    (You can also append them with `>>`; see the close docs.)
 
-3. **If you track lots** (investments recorded with [lot tracking](hledger.md#lot-reporting)),
+3. **If you track lots** (investments recorded with [lot tracking](hledger.md#lots-and-capital-gains)),
    add `--lots` so the closing and opening transactions carry each lot, with its acquisition date and cost basis,
    into the new file rather than collapsing them into one balance:
    ```cli

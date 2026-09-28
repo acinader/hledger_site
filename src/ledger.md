@@ -395,7 +395,7 @@ It normally uses a syntax similar to Beancount's, but it also reads all of Ledge
 (which are treated like the non-fixated forms).
 It can also print them in Ledger's syntax, with the `ledger` output format.
 See [hledger manual: Cost basis](../dev/hledger.md#cost-basis),
-[hledger manual: Lot reporting](../dev/hledger.md#lot-reporting).
+[hledger manual: Lots and capital gains](../dev/hledger.md#lots-and-capital-gains).
 
 ### Other differences
 

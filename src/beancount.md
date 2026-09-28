@@ -72,7 +72,7 @@ and different [behaviour](https://beancount.github.io/docs/how_inventories_work.
   - when selling, other combinations of date/cost/label, like the above, are accepted for selecting the lot.
 
 For hledger's notation and behaviour, see [Cost basis](hledger.md#cost-basis)
-and [Lot reporting](hledger.md#lot-reporting) in the hledger manual.
+and [Lots and capital gains](hledger.md#lots-and-capital-gains) in the hledger manual.
 
 
 ## hledger to Beancount

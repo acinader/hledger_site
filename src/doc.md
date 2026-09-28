@@ -222,7 +222,7 @@ Additional docs, tips, and notes, grouped by topic.
 - [Calculate return on investment](roi.md)
 - [hledger manual: Cost reporting](hledger.md#cost-reporting)
 - [hledger manual: Value reporting](hledger.md#value-reporting)
-- [hledger manual: Lot reporting](hledger.md#lot-reporting)
+- [hledger manual: Lots and capital gains](hledger.md#lots-and-capital-gains)
 - [hledger manual: balance features](hledger.md#balance-features)
 - [hledger-lots](scripts.md#hledger-lots)
 - [PTA Cookbook: Investing and trading](https://plaintextaccounting.org/Investing-and-trading)

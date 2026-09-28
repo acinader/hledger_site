@@ -3,7 +3,7 @@
 Last updated: 2020
 
 Here's a tutorial on tracking "investments" - stocks, cryptocurrencies, and similar - in hledger.
-Since then, hledger 2.x (preview) has gained built-in [lot tracking](hledger.md#lot-reporting),
+Since then, hledger 2.x (preview) has gained built-in [lot tracking](hledger.md#lots-and-capital-gains),
 which automates much of what is done by hand below; the manual methods here still work.
 I hope to teach you a little basic investment accounting, 
 or a little about doing it with hledger (and other PTA tools), 
@@ -154,7 +154,7 @@ or *lot*. This information is needed:
      basis*) of those lots.
   
 Ledger and Beancount provide a special syntax and some builtin reports for tracking lots and calculating capital gains,
-and so does hledger 2: see [Lot reporting](hledger.md#lot-reporting) in the manual.
+and so does hledger 2: see [Lots and capital gains](hledger.md#lots-and-capital-gains) in the manual.
 The rest of this page shows a manual approach, which also works in hledger 1.
 
 We can use the obvious categorisation feature: accounts.
@@ -617,7 +617,7 @@ instead of just `hledger is`.
 
 ## Other lot events (hledger 2)
 
-hledger 2's automated [lot tracking](hledger.md#lot-reporting) understands three lot movements:
+hledger 2's automated [lot tracking](hledger.md#lots-and-capital-gains) understands three lot movements:
 acquire, transfer and dispose.
 Other real-world events can be recorded as combinations of these; here are some examples.
 The right treatment varies by jurisdiction, so check your local tax rules.
