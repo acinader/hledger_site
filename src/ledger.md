@@ -394,6 +394,11 @@ It normally uses a syntax similar to Beancount's, but it also reads all of Ledge
 `{LOTUNITCOST}`, `{{LOTTOTALCOST}}`, `[LOTDATE]`, `(LOTNOTE)`, and the fixated forms `{=LOTUNITCOST}` and `{{=LOTTOTALCOST}}`
 (which are treated like the non-fixated forms).
 It can also print them in Ledger's syntax, with the `ledger` output format.
+
+Note Ledger balances acquisitions with `@` and calculates gains with `{}`, allowing these to differ (and be unaccounted for).
+hledger 2 requires them to agree (unless you use `-I` or `--ignore-lots`).
+See [Acquire](../dev/hledger.md#acquire) in the manual for more about this.
+
 See [hledger manual: Cost basis](../dev/hledger.md#cost-basis),
 [hledger manual: Lots and capital gains](../dev/hledger.md#lots-and-capital-gains).
 
